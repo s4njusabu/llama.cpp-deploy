@@ -21,3 +21,8 @@ build-backend = "uv_build"
 
 [tool.fastapi]
 entrypoint = "llamacpp_deploy.main:app"
+
+[dependency-groups]
+dev = [
+    "ruff>=0.17.3",
+]
