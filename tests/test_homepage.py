@@ -1,5 +1,6 @@
 from fastapi.testclient import TestClient
-from llamacpp_deploy import main, config
+
+from llamacpp_deploy import main
 
 client = TestClient(main.app)
 

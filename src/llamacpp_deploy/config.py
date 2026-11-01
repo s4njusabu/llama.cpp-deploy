@@ -1,7 +1,8 @@
-from dotenv import load_dotenv
-from importlib.metadata import version, PackageNotFoundError
-import os, socket
+import os
+import socket
+from importlib.metadata import PackageNotFoundError, version
 
+from dotenv import load_dotenv
 
 load_dotenv()
 

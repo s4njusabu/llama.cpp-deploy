@@ -1,6 +1,6 @@
 from fastapi import APIRouter
-from llamacpp_deploy import config
 
+from llamacpp_deploy import config
 
 router = APIRouter(tags=["homepage"])
 
